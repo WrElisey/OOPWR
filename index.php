@@ -1,12 +1,8 @@
 <?php
 
-echo "Привет, мой друг";
-if(isset($_GET['name']))
+echo "Привет, мой милый друг";
+if(isset($_GET['are']))
 {
-	echo "Тебя зовут $_GET['name']";
-}
-else
-{
-Echo "хм... кто же ты?";
+	echo "Тебе $_GET['are'] лет";
 }
 ?>
